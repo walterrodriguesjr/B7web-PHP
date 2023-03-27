@@ -1,0 +1,20 @@
+módulo 1:introdução 
+
+1-introdução 
+-explicação sobre o php 
+
+2-Ferramentas Necessárias
+-linguagem = php 
+-servidor = apache ou nginx 
+-banco de dados = mysql 
+-editor de código = vscode 
+
+3-Editor de código (VSCode)
+-ok 
+
+4-Instalando o PHP 7.4 (XAMPP)
+-ok 
+
+5-Como funciona o PHP?
+-utilizando o localhost ou 127.0.0.1 
+-
