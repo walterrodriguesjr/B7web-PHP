@@ -1,5 +1,6 @@
 módulo 1:introdução 
 
+
 1-introdução 
 -explicação sobre o php 
 
@@ -17,4 +18,82 @@ módulo 1:introdução
 
 5-Como funciona o PHP?
 -utilizando o localhost ou 127.0.0.1 
--
+
+6-primeiros comandos no php 
+-executando servidor local do php com: php -S localhost:8080
+-imprimindo informações concatenadas na tela 
+
+7-tipos de variáveis 
+-string, number, boolean, null, 
+
+8-mesclando variáveis 
+-concatenando variáveis 
+
+9-arrays 
+-serve para armazenar vários valores (e todo tipo de dado) em uma variável 
+-pode se reutilizar depois o array como um todo ou então selecionar cada item por índice 
+
+10-operador array spread 
+-recurso apartir do php 7.4 
+-array spread é a funcionalidade dos 3 pontos (...) mais o nome da variável que vc irá trazer para uma variável, reaproveitando os dados por inteiro de outra 
+
+11-Exercício Prático (Variáveis)
+-OK 
+
+
+módulo 2:Condicionais e loops 
+
+
+1-condicional if 
+-"Se", então faça tal coisa 
+-feito exemplo cássico de menor e maior de idade 
+
+2-condicional ternário 
+-ternário remete a algo divido em três partes, "terno" 
+-o ternário é um IF de uma linha 
+
+3-Condicional NULL CAO (7.4)
+-é uma simplicação do Condicional ternário
+-é o condicional que possibilita fazer direto em uma linha já em uma ação de atribuição ou também de concatenação. 
+"$nomeCompleto concatena com $sobreNome caso ela esteja setada, se não, concatena com vazio"
+ex: $nomeCompleto .= ($sobreNome) ?? '';
+
+4-Condicional Switch
+-sistema de condicional em loop que utiliza 'cases', de acordo com o dado que tiver dentro de case for o mesmo dentro do parâmetro da variavel em switch ele executa,
+     e por ultimo pode usar um default 
+
+5-Loop While
+-while sistema de loop que executa determinado código, 'enquanto' determinada condição seja atendida 
+
+6-Loop For
+-sistema de loop mais seguro que, recebe 3 parâmetros, sendo eles, valor inicial, a condicional e o incremento ou decremento, não tem o risco de gerar um loop infinito igual no while 
+
+7-loop foreach 
+-tipo de loop que trabalha com arrays (para cada, para cada item de um array) 
+-faz varredura em array 
+-possibilita acessar a chave do indice também 
+
+8-Exercício Prático 1
+-ok 
+
+9-Exercício Prático 2
+ok 
+
+
+módulo 3:Funções parâmetros e includes 
+
+
+1-introdução a funções 
+-funções são blocos de códigos que fazem algo em específico, um robozinho programada pra fazer uma ação específica 
+-toda função recebe dados para posteriormente processá-lo de alguma forma 
+-existem funções nativas do php e as que são criadas pelo programador
+-pode ser reutilizada quantas vezes for necessária 
+
+2-Definindo uma função
+-a função precisa ser chamada para ser executada, não basta apenas defini-la 
+
+3-Parâmetros: Definição normal
+-parâmetros servem para definir quais dados serão utilizados pela função, como se fossem dados de entrada 
+-parâmetros são variáveis que recebem dados para a realização da função
+
+
