@@ -96,4 +96,51 @@ módulo 3:Funções parâmetros e includes
 -parâmetros servem para definir quais dados serão utilizados pela função, como se fossem dados de entrada 
 -parâmetros são variáveis que recebem dados para a realização da função
 
+4-Parâmetros: Type e Valor padrão
+-é possível tipar o dado do parâmetro, informando o tipo antes de passar a variável 
+-se a função espera tantos parâmetros, e for passado mais ou menos, irá gerar um erro do sistema 
+
+5-Parâmetros: Referência ou Valor
+-passar parâmetro por valor é: quando chamar a função, em seu parâmetro pode incluir o próprio valor a ser usado, ou também variáveis que tem valor contigo em si 
+-passar parâmetro por referência, no parametro da função um & antecede a variavel, neste caso, o dado não fica restrito somente ao interior da função 
+
+6-Funções Anônimas
+-função anônima é uma função sem nome que pode ser armazenada em uma variável ou em parâmetros
+-função anônima, ela não tem nome, acaba sendo criado e já usada no código, porém não pode ser reutilizada. Por isso existem 2 maneiras corretas: 
+     -armazenando ela dentro de uma variável, sendo assim, posteriormente a função pode ser chamada quando necessário 
+     -passando como parâmentro para outra função 
+-dentro de uma variável ela pode ser chamada de qualquer lugar 
+
+7-funções flechas (Arrow) (7.4)
+-são as arrow functions 
+-arrow function é para quando há apenas um comando sendo executado 
+
+8-Funções Recursivas
+-muito pouco usada na prática 
+-função recursiva é uma função que executa ela mesma internamente 
+
+9-Funções Nativas de Matemática
+-são funções já nativas usadas no PHP, usadas para expressões matemáticas 
+-todas estão disponíveis na documentação 
+
+10-Funções Nativas de String (1/2)
+-funções de string geralmente começam com 'str'
+-trim() = ajusta espaçamento de uma string 
+-strlen() serve para capturar a quantidade de caracteres de uma string 
+-strtoupper() converte todos os caracteres para maiúsculo 
+-strtolower() converte todos os caracteres para minúsculo 
+
+11-Funções Nativas de String (2/2)
+-explode() = tem 2 parâmetros, serva para transformar cada palavra de uma string em um item de array 
+-number_format() = serve para formatar números 
+
+12-Funções Nativas de Array (1/2)
+-count() - método que retorna a quantidade de itens de um array 
+-array_diff($parametroBase, $dados a serem Retirados) 
+
+13-Funções Nativas de Array (2/2)
+-array_pop() - retira o último item do array 
+-array_shift() - retira o primeiro item do array 
+-in_array($dadoProcurado, $array) - serve para procurar algum item dentro de um array, se existir dentro do array, retorna true, se não, <i class="fas fa-less    "></i>
+-
 

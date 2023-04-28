@@ -1,10 +1,7 @@
 <?php
 
-function somar($n1, $n2)
-{
-    $total = $n1 + $n2;
-    return $total;
-}
+$numeros = [20, 54, 22, 66];
 
-$soma = somar(10, 6);
-echo $soma;
+$pos =  in_array(11, $numeros);
+
+print_r($pos);
