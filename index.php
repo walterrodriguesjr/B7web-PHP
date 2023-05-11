@@ -1,7 +1,8 @@
-<?php
+<?php 
 
-$numeros = [20, 54, 22, 66];
+$texto = 'Bonieky Lacerda';
 
-$pos =  in_array(11, $numeros);
+$texto = file_get_contents('nome.txt');
 
-print_r($pos);
+file_put_contents('nome.txt', 'Charlene');
+echo $texto;

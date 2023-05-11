@@ -142,5 +142,58 @@ módulo 3:Funções parâmetros e includes
 -array_pop() - retira o último item do array 
 -array_shift() - retira o primeiro item do array 
 -in_array($dadoProcurado, $array) - serve para procurar algum item dentro de um array, se existir dentro do array, retorna true, se não, <i class="fas fa-less    "></i>
--
+
+14-Funções Nativas de Data/Hora
+-time() - tempo em milisegundos desde o inicio do php 
+-date('d/m/Y H:m:s') - método que pega dia, mês, ano - hora, minuto e segundo 
+-data sempre é salva no padrão internacional (ano, mês e dia)
+
+15-Exercício Prático (Funções)
+-ok 
+
+16-Trabalhando com múltiplos arquivos
+-require('endereco.php do arquivo requirido') - faz uma requisição dos dados do arquivo php que está sendo descrito no parâmetro 
+     evita ter que ficar reescrevendo código, apenas 'requerendo' dados de determinado arquivo. quando da error, para todo o sistema
+-include() - quando da error, avisa o erro, mas continua a execução do código 
+
+17-Trabalhando com pastas diferentes
+-fazendo require() de arquivos php que estão dentro de uma pasta 
+
+
+módulo 4:Formulários, Validações, Sessão e Arquivos 
+
+
+1-Introdução à HTTP Requests
+- criado formulário, configurado method (get ou post) e a action que é o destino dos dados 
+-get aparece na url os parâmetros enviados 
+-post os dados vão pelo payload 
+
+2-Pegando informações do formulário
+-a 'action' do form é onde informamos o redirecionamento da url após a submissão dos dados 
+-o método nativo filter_input(INPUT_GET ou INPUT_POST, 'name do dado') serve para capturar o dado submetido, podendo ser colocado dentro de uma variável 
+-o méotodo nativo header("Location: paginaDestino.php) serve para fazer redirecionamento de URL, sempre após o header(), chamar o exit, para parar a execução 
+
+3-Validando informações do formulário
+-uso de métodos nativos para filtrar e/ou validar dados enviados no form: FILTER_VALIDATE_EMAIL(), FILTER_SANITIZE_NUMBER_INT() etc
+-existem diversos méotodos nativos do PHP do tipo FILTER_VALIDATE E FILTER_SANITIZE 
+
+4-Sessões no PHP 
+-session é semelhante ao cookie, deixa alguma informação no sistema, porem, a session deixa a informação nos servidor(geralmente em sistema de login) 
+usando $_SESSION['arquivo'] é possível criar mensagens de sessão 
+
+5-Cookies no PHP
+-cookies ficam salvos no navegador do usuário 
+-o cookie precisa ser setado sempre antes da impressão de qualquer dado na tela 
+
+6-Exercício Prático (Formulários)
+-ok 
+
+7-Lendo arquivos
+-consumir dados de arquivos externos e internos, file_get_contents($variavelQueContemOdado)
+
+8-Escrevendo em arquivos
+-usado os métodos file_get_contents('nomeDoArquivo.txt') para inserir em uma variável o conteúdo do arquivo;
+-usado os métodos put_get_contents('Novo conteúdoDoArquivo') para inserir o novo conteúdo no arquivo; 
+
+9-
 
