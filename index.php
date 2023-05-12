@@ -1,8 +1,5 @@
-<?php 
+<form action="recebedor.php" method="POST" enctype="multipart/form-data">
+    <input type="file" name="arquivo">
+    <input type="submit" value="Enviar">
+</form>
 
-$texto = 'Bonieky Lacerda';
-
-$texto = file_get_contents('nome.txt');
-
-file_put_contents('nome.txt', 'Charlene');
-echo $texto;

@@ -195,5 +195,19 @@ usando $_SESSION['arquivo'] é possível criar mensagens de sessão
 -usado os métodos file_get_contents('nomeDoArquivo.txt') para inserir em uma variável o conteúdo do arquivo;
 -usado os métodos put_get_contents('Novo conteúdoDoArquivo') para inserir o novo conteúdo no arquivo; 
 
-9-
+9-Exercício Prático (Cadastro com txt)
+-ok 
+
+10-Excluindo arquivos
+-método php para excluir arquivos, unlink('nomeDoArquivo')
+
+11-Movendo arquivos
+-méotodo php para renomear um arquivo, rename('nomeAntigo.txt', 'nomeNome.txt');
+-méotodo php para renomear um arquivo, copy('pasta/nomeAntigo.txt', 'nomeNome.txt');
+
+12-Upload de arquivos (1/2)
+-ok 
+
+13-
+
 
