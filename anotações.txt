@@ -208,6 +208,24 @@ usando $_SESSION['arquivo'] é possível criar mensagens de sessão
 12-Upload de arquivos (1/2)
 -ok 
 
-13-
+13-Upload de arquivos (2/2)
+-ok 
+
+
+módulo 5:Manipulação de array 
+
+
+1-array range 
+-range(1, 5) = função que serve para gerar um array, primeiro parâmetro item que vai começar, o segundo é o item que vai terminar 
+
+2-key_exists
+-key_exists('nome', $array) = método que serve para verificar se determinada key de um array existe
+
+3-array_keys e array_values
+-array_keys() = serve para gerar um array de keys, a partir de um array original
+-array_valores() = serve para gerar um array de values, a partir de um array original
+
+4-
+
 
 
