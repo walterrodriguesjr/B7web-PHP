@@ -225,7 +225,14 @@ módulo 5:Manipulação de array
 -array_keys() = serve para gerar um array de keys, a partir de um array original
 -array_valores() = serve para gerar um array de values, a partir de um array original
 
-4-
+4-Exercício: Montando uma tabela vertical
+-usado o foreach pra inserir chave e valor organizado dentro de uma tabela 
+
+5-Exercício: Montando uma tabela horizontal
+-array principal foi separado em key e values usando seus respectivos métodos, em seguida 2 loop de foreach feito, o de key e o de value, inserido a tabela dinamicamente 
+
+6-array_slice
+-
 
 
 
