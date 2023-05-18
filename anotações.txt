@@ -232,7 +232,27 @@ módulo 5:Manipulação de array
 -array principal foi separado em key e values usando seus respectivos métodos, em seguida 2 loop de foreach feito, o de key e o de value, inserido a tabela dinamicamente 
 
 6-array_slice
--
+-método que serve para fatiar o array, 'cortar' onde for necessário, ele não corta o array original e sim cria um novo array com o antigo fatiado 
+ex: $array = ['a', 'b', 'c', 'd', 'e', 'f'];
+    $retorno = array_slice($array, 0, 2); 
 
+7-array_splice
+-método que serve para remover itens de um array, neste caso não cria um novo array, recebe no parâmetro o próprio array, a posição de partida e a quantidade 
+-no quarto parâmetro do método,ele possíbilita informar qual item irá entrar no array 
+
+8-array_reduce 
+-serve para reduzir todo array em um item apenas, 
+
+9-Descontruindo usando list
+-list() - este método serve para desconstruir um array, sendo assim, após saber o nome do array, nos parametros do método, cria-se variáveis que possibilitarão acessar cada índice do array 
+
+
+módulo 6:Orientação á Objetos 
+
+
+1-Introdução à Orientação à Objetos
+-sistema feito por vários objetos, as Classes são como fôrmas, que podem gerar quantos objetos (itens forem necessários, objetos que veem da mesma classe tem as mesmas caracteristicas)
+
+2-
 
 
