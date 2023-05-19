@@ -251,8 +251,13 @@ módulo 6:Orientação á Objetos
 
 
 1-Introdução à Orientação à Objetos
--sistema feito por vários objetos, as Classes são como fôrmas, que podem gerar quantos objetos (itens forem necessários, objetos que veem da mesma classe tem as mesmas caracteristicas)
+-sistema feito por várias classes, as Classes são como fôrmas, que podem gerar quantos objetos (itens forem necessários, objetos que veem da mesma classe tem as mesmas caracteristicas)
 
-2-
+2-Definindo Classes e Objetos
+-classe = é a fôrma que serve para gerar objetos 
+-objeto = item criado a partir de uma class, tendo caracteristicas e propriedades padrão, porem com valores diferentes 
+
+3-Definindo Métodos e Propriedades
+-
 
 
