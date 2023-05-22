@@ -1,16 +1,51 @@
-<?php 
+<?php
 
-class Post {
-    public $likes = 0;       //vai receber números
-    public $comments = [];   // vai receber um array de comentários
-    public $author;         // vai receber uma string
+class Pessoa {
+    public $nome;
+    public $idade;
+
+    public function setNome($nome)
+    {
+        $this->nome = $nome;
+    }
+
+    public function getNome()
+    {
+        return $this->nome . "<br>";
+    }
+
+    public function setIdade($idade)
+    {
+        $this->idade = $idade;
+    }
+
+    public function getIdade()
+    {
+        return $this->idade;
+    }
 }
 
-$postagem1 = new Post();
-$postagem1->likes = 5;
-$postagem1->comments[0] = "Comentário teste";
-$postagem1->author = "Walter";
+$pessoa1 = new Pessoa;
+$pessoa1->setNome("Walter");
+echo $pessoa1->getNome();
 
-echo "<pre>";
-print_r($postagem1);
-echo "</pre>";
+class Aluno extends Pessoa {
+    public $periodo;
+
+    public function setPeriodo($periodo)
+    {
+        $this->periodo = $periodo;
+    }
+
+    public function getPeriodo()
+    {
+        return $this->periodo . "<br>";
+    }
+
+}
+
+$aluno1 = new Aluno;
+$aluno1->setNome("Charlene");
+echo $aluno1->getNome();
+$aluno1->setPeriodo('tarde');
+echo $aluno1->getPeriodo();

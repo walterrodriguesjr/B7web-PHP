@@ -256,8 +256,31 @@ módulo 6:Orientação á Objetos
 2-Definindo Classes e Objetos
 -classe = é a fôrma que serve para gerar objetos 
 -objeto = item criado a partir de uma class, tendo caracteristicas e propriedades padrão, porem com valores diferentes 
+-classes tem propriedades e métodos
 
 3-Definindo Métodos e Propriedades
--
+-propriedades ou atributos = características de um objeto criado por uma classe (classe pessoa, tem nome, idade, altura etc...)
+     podem ser: públicas, privadas e protegidas (public, private, protected)
 
+4-Typed Properties (7.4)
+-são propriedades tipadas, ou seja, proteje a propriedade para que receba tipo de dados que forem especificados(string, int, boolean etc...) 
 
+5-Método Construtor
+-__construct() - o construtor é rodado sempre que um objeto é criado(derivado da class, que contém propriedades e métodos)
+-possibilita criar valores para as propriedades dos objetos, já na sua criação pela classe 
+
+6-Entendendo Encapsulamento
+-serve para proteger de acessos indevidos ou desnecessários 
+
+7-Método Estático
+-método estático é o método que pode ser usado sem a necessidade de criação de uma class 
+-a public static é criada dentro de uma class, porem ela pode ser chamada sem a criação de um objeto, ex: echo Matematica::somar(3, 7);
+- o método estático é chamado usando '::' entre o nome da class e o nome do método da referida class 
+
+8-Exercício Prático (OO)
+-ok 
+
+9-Entendendo Herança
+-para usar a Herança, a class que for herdar propriedades e métodos de uma outra, quando for declarada, precida extender da referida class, usando o "extends"
+
+10-
