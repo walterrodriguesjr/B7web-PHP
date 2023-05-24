@@ -283,4 +283,20 @@ módulo 6:Orientação á Objetos
 9-Entendendo Herança
 -para usar a Herança, a class que for herdar propriedades e métodos de uma outra, quando for declarada, precida extender da referida class, usando o "extends"
 
-10-
+10-Propriedade Private e Protected
+-private = propriedades private só podem ser alteradas pelas class que a criaram 
+-protected = podem ser acessadas também pelas class que herdam as classes que a criaram 
+
+11-Entendendo Interface
+-finalidade de padronização e organização 
+
+12-Entendendo Polimorfismo
+-ok 
+
+13-Entendendo Namespace
+-possibilita usar classes com o mesmo nome 
+-a diferenciação é pelo namespace, dando o nome diferente no namespace\nomeDaClass, quando for instanciar a class, o new recebe o endereço todo 
+-também pode ser usado o nome do 'alias' 
+
+14-Entendendo Injeção de Dependência
+-
