@@ -299,4 +299,16 @@ módulo 6:Orientação á Objetos
 -também pode ser usado o nome do 'alias' 
 
 14-Entendendo Injeção de Dependência
+-injetar dependencia é inetar conteudo de uma class como parâmetro em outra class, através de variável, que irá deter o conteúdo da class 
+-é possível injetar diretamente uma new class() dentro de outra class através do parâmetro 
+
+15-O que é PSR?
+-é o principal método de padronização de código do PHP 
+-contém diversos itens 
+-visa estabelecer boas práticas em projetos usando PHP 
+
+16-Entendendo a PSR-1 (1/2)
+-basic coding standart 
+-vai desde a abertura do php no arquivo, <?php, até 
+-no padrão UTF-8 sem BOM 
 -
