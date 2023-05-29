@@ -311,4 +311,41 @@ módulo 6:Orientação á Objetos
 -basic coding standart 
 -vai desde a abertura do php no arquivo, <?php, até 
 -no padrão UTF-8 sem BOM 
--
+
+17-Entendendo a PSR-1 (2/2)
+-nome de classe inicia em caixa alta, se for nome composto, usa o StudlyCaps 
+-nomes de métodos quando compostos, usar o camelCase
+
+18-Entendendo Autoload
+-autoload, serve para o php reconhecer qual class está sendo chamada, sem a necessidade de fazer require() em tudo 
+-o autoload é chamado com a função: spl_autoload_register(function($class){
+
+})
+-é usado no momento de criar um objeto, a class que será usada, precisa estar carregada pelo autoload 
+
+19-Entendendo a PSR-4
+-ok 
+
+20-Introdução à Gerenciamento de Dependências
+-são packages de dependencias, o principal é o composer 
+-composer serve para linkar o projeto php com bibliotecas específicas do php, conectar com reposítórios, etc... 
+-consiste em reaproveitamento de código 
+
+21-Instalando o Composer
+-instala o .exe do composer 
+
+22-Usando o Composer (1/2)
+-usado, sempre usar o cmd composer require 'pacote a ser usado' 
+
+23-Usando o Composer (2/2)
+-ok
+
+
+Módulo 7: Banco de Dados, CRUD, DAO, SOLID
+
+
+1-Introdução à Banco de dados
+-geralmente PHP trabalha com banco de dados relacional (MySQL / MariaDb)
+
+2-
+
